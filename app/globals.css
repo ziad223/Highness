@@ -1,0 +1,1056 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+  }
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.container{
+  width: 90%;
+  margin: 70px auto;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.menu-btn{
+  display: none;
+}
+.main-links{
+ font-size: 16px !important;
+}
+.hero{
+  background-image: url('../assests/hero.jpg');
+  background-size: cover;
+  background-position:  center;
+}
+.dicover-div {
+  padding: 15px;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+.dicover-div p {
+  display: none;
+}
+.dicover-div:hover p {
+  display: block;
+
+}
+.dicover-div:hover{
+  background-color: rgb(151, 233, 151);
+
+}
+.pircing{
+  background-image: url('../assests/pircing.webp');
+  background-size: cover;
+  background-position:  center;
+  padding: 20px;
+}
+.step-num{
+  height: 75px;
+  width: 75px;
+  border: 2px solid #3fa72b;
+  border-radius: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1;
+  padding-bottom: 2px;
+  margin-bottom: 21px;
+  color: #3fa72b;
+
+}
+
+footer{
+  width: 100% !important;
+}
+
+.menu-page{
+  overflow: auto !important;
+  height: max-content !important;
+}
+/* About Page */
+
+.about-hero{
+  padding: 20px 0px;
+  background-image: url(../assests/about.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.Typewriter{
+  color: #74b22b;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* why-highness-page */
+.why-highness-hero{
+  padding: 20px 0px;
+  background-image: url(../assests/why.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+/* careers-page */
+.careers-page-hero{
+  padding: 20px 0px;
+  background-image: url(../assests/careers.webp);
+  background-size: cover;
+  background-position: center;
+}
+.career-last-title{
+  position: relative;
+}
+.career-last-title::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -20px;
+  height: 100%;
+  background-color: green;
+  width: 5px;
+}
+
+/* vision-page */
+.vision-page-hero{
+  padding: 20px 0px;
+  background-image: url(../assests/vision.webp);
+  background-size: cover;
+  background-position: center;
+}
+.vision-last-title{
+  position: relative;
+  margin-left: 20px;
+}
+.vision-last-title::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -20px;
+  height: 100%;
+  background-color: green;
+  width: 5px;
+}
+
+/* mision-page */
+.mision-page-hero{
+  padding: 20px 0px;
+  background-image: url(../assests/mision.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+/* mision-page */
+.terms-page-hero{
+  padding: 20px 0px;
+  background-image: url(../assests/terms_and_agreement.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Safety Page */
+.saftey-page-hero{
+  padding: 20px 0px;
+  background-image: url(../assests/safety_of_your_funds.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Safety Page */
+.legalForms-page-hero{
+  padding: 20px 0px;
+  background-image: url(../assests/legal_forms_documents.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+/* cookies-Policy Page */
+.cookiesPolicy-page-hero{
+  padding: 20px 0px;
+  background-image: url(../assests/cookies_policy.webp);
+  background-size: cover;
+  background-position: center;
+}
+     .table-title{
+      display: none ;
+    }
+
+    /* awards-page */
+    .awards-page-hero{
+        padding: 20px 0px;
+        background-image: url(../assests/awards.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+       /* exibitions-page */
+       .exhibitions-page-hero{
+        padding: 20px 0px;
+        background-image: url(../assests/exhibitions.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+         /* highness-media-page */
+         .highness-media-page-hero{
+          padding: 20px 0px;
+          background-image: url(../assests/highness_in_media.webp);
+          background-size: cover;
+          background-position: center;
+      }
+      .highness-content {
+           padding: 20px;
+          background-image: url(../assests/media-background.webp);
+          background-size: cover;
+          background-position: center;
+      }
+  
+        /* support */
+    
+        .support-page-hero{
+          padding: 20px;
+          background-image: url(../assests/contact\ us.jpg);
+          background-size: cover;
+          background-position: center;
+        }
+
+        /* load */
+
+        .load{
+          padding: 20px;
+          background-image: url(../assests/hero.jpg);
+          background-size: cover;
+          background-position: center;
+          height: 100vh !important;
+        }
+
+        /* forex */
+
+        .forex-hero{
+            padding: 20px;
+              background-image: url(../assests/forex-page.webp);
+              background-size: cover;
+              background-position: center;
+        }
+
+            /* forex */
+
+        .indices-hero{
+          padding: 20px;
+          background-image: url(../assests/indices.webp);
+          background-size: cover;
+          background-position: center;
+        }
+        .standard-hero {
+          padding: 20px;
+          background-image: url(../assests/standard_account.webp);
+          background-size: cover;
+          background-position: center;
+        }
+         .highness-account-hero {
+          padding: 20px;
+          background-image: url(../assests/highness_account.webp);
+          background-size: cover;
+          background-position: center;
+           }
+           .professional-account-hero{
+              padding: 20px;
+              background-image: url(../assests/premium_account.webp);
+              background-size: cover;
+              background-position: center;
+           }
+ 
+        /* standard  */
+
+        .standard-video {
+          max-width: 90%;
+        }
+        .standard-p{
+          max-width: 90%;
+          margin: auto;
+          margin-top: 20px;
+        }
+        .standard-title{
+          max-width: 90%;
+          margin: auto;
+        }
+        .standard-table{
+          max-width: 90%;
+        }
+
+
+@media screen and (min-width : 1300px) and (max-width : 1800px) {
+  .mobile-menu {
+      display: none !important;
+    }
+}
+@media screen and (max-width : 1300px){
+ /* navbar */
+ nav{
+  padding: 20px 10px;
+  position: relative;
+}
+.mobile-menu {
+  position: absolute;
+  flex-direction: column;
+  justify-content: start;
+  right: 0;
+  top: 62px;
+  background-color: #163d5f;
+  width: 100%;
+  gap: 15px;
+  padding: 20px;
+  transition: 1s;
+}
+.nav-menus{
+ display: none;
+}
+
+.main-links{
+margin: 20px 0px;
+}
+
+.menu-btn{
+  display: block;
+}
+.logo-img{
+  width: 200px;
+}
+.nav-login{
+ display: none;
+}
+.lang-btn{
+  padding: 10px;
+  display: none;
+}
+.lang-flag{
+  width: 30px;
+}
+ 
+  /* hero */
+  .hero-two-div{
+    width: 48% !important;
+    border-right: none ;
+   border-bottom: 1px solid #ddd;
+
+  }
+  .hero-two{
+    width: 90%;
+    margin: auto;
+   }
+
+   /* Discover */
+
+   .hero-four{
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+   }
+   
+   .hero-four-div{
+    width: 40% !important;
+    margin: 20px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+   }
+   .rights{
+    width: 150px !important;
+   }
+ 
+   /*  */
+
+   .legendForm-div{
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    text-align: center;
+   }
+   .legendForm-icon{
+    margin: auto;
+   }
+   
+     /* media */
+     .highness-content{
+      flex-direction: column;
+      width: 100%;
+      padding: 0;
+    }
+    .media-img  {
+      width: 100%;
+    }
+
+    /* support */
+
+    .support form{
+      max-width: 100%;
+    }
+  
+
+}
+
+
+@media screen and (max-width : 992px){
+  .menu-page{
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    position: relative ;
+  }
+
+
+  .menu-page h3{
+    margin-bottom: 3px;
+    
+  }
+  .nav-link{
+    font-size: 18px;
+  }
+  .menu-menus li{
+    position: static !important;
+  }
+
+  .hero-two-div{
+    width: 48% !important;
+    border-right: none ;
+   border-bottom: 1px solid #ddd;
+
+  }
+  .hero-two{
+    width: 90%;
+    margin: auto;
+   }
+     /* Discover */
+
+  .dicover-div{
+    width: 48% !important;
+   }
+   .pircing-content{
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+     .pircing-div{
+      width: 100% !important;
+     }
+     .platform-content{
+      flex-direction: column !important;
+      flex-wrap: wrap !important;
+     }
+     .platform-div{
+      width: 100%;
+      margin-left: 10px;
+     }
+     .steps-flex{
+      gap: 20px;
+     }
+     .step-item h2{
+      font-size: 22px;
+     }
+     .step-item h3{
+      font-size: 18px;
+     }
+     .footer-one{
+      flex-direction: column;
+     }
+     .footer-left-img{
+      width: 130px;
+     }
+     .footer-two{
+      flex-direction: column;
+      gap: 30px;
+     }
+   
+     .footer-four-content{
+      flex-direction: column;
+      gap: 20px;
+     }
+     .footer-four-right{
+      flex-direction: column;
+     }
+     .footer-three-content{
+      padding: 25px;
+     }
+     .footer .list-disc{
+      margin-left: 30px;
+     }
+     .payment{
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+     }
+  
+     .payment .a{
+      margin: auto;
+      width: 30%;
+     }
+     .menu-page{
+      top: 0px;
+     }
+
+     /* About page */
+
+   .Typewriter{
+    font-size: 28px;
+   }
+   .about-hero p {
+    font-size: 20px;
+   }
+   .about-counter{
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   .more-title{
+    font-size: 18px;
+   }
+   .about-last {
+    flex-direction: column;
+   }
+   .about-last-left{
+    width: 100%;
+   }
+   .about-last-right{
+    width: 100%;
+   }
+   .about-last-left-title{
+    font-size: 20px;
+   }
+   .about-last-div div{
+    text-align: center;
+    width: 80%;
+   }
+   .about-last-div div p{
+    font-size: 14px;
+    width: 90%;
+   }
+   .about-last-icon{
+    font-size: 20px !important;
+    width: 10%;
+   }
+   .about-last-right{
+    text-align: center;
+    width: 100%;
+   }
+   .about-last-right p {
+    width: 100% !important;
+   }
+  /* why-highness-page */
+  .why-highness-hero p{
+    width: 90%;  
+  }
+
+   /* careers-page */
+  
+   .careers-page-hero p{
+    width: 90%;  
+  }
+  .careers-content{
+    flex-direction: row;
+    gap: 20px !important;
+    flex-wrap: wrap;
+  }
+  .careers-job{
+    width: 48%;
+  }
+  .careers-four{
+    flex-direction: column !important;
+    gap: 40px !important;
+  }
+  .career-last{
+    text-align: center;
+  }
+  .career-last h2{
+    font-size: 22px;
+  }
+
+   /* vision-page */
+   .vision-page-hero p{
+    width: 90%;
+   }
+   .vision-one-title{
+    font-size: 25px;
+   }
+
+   .vision-div{
+    width: 48%;
+   }
+   .vision-last-main{
+    font-size: 25px;
+   }
+   .vision-last-p{
+    width: 100%;
+   }
+   .vision-last{
+  flex-direction: column;
+   }
+   .vision-last-div{
+    width: 100%;
+    text-align: center;
+   }
+
+    /* terms-page */
+    .terms-page-hero p{
+      width: 90%;
+     }
+           /* safety-page */
+           .saftey-page-hero p{
+            width: 85%;
+           }
+           .safety-title{
+            font-size: 30px;
+           }
+           .safety-last{
+            gap: 40px;
+            flex-wrap: wrap;
+           }
+           .safety-div{
+            width: 47% ;
+           }
+      
+           .legalForms-content{
+            flex-direction: column;
+           }
+           .legendForm-div{
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            text-align: center;
+           }
+           .legendForm-icon{
+            margin: auto;
+           }
+        /* cookiesPolicy-page-page */
+        .cookiesPolicy-page-hero p{
+         width: 90%;
+          }
+
+           /* exhibitions-page */
+  .exhibitions-page-hero p {
+    width: 90%;
+  }
+  .exhibitions-content{
+    flex-direction: column;
+  }
+  .exhibitions-div{
+    width: 100%;
+  }
+  
+  /* media */
+  .support-page-hero p {
+    width: 90%;
+  }
+
+            /* forex */
+      
+            .forex-content {
+              flex-direction: row;
+              flex-wrap: wrap;
+              gap: 30px;
+              align-items: center;
+            }
+      
+            .forex-div {
+              width: 30%;
+      
+            }
+            /* standard */
+                
+          .standard-flex {
+            flex-wrap: wrap;
+          }
+          .standard-div {
+            width: 48% !important;
+            margin: auto;
+          }
+}
+@media screen and (max-width : 768px){
+  .menu-page{
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100% !important;
+
+  }
+  .nav-link{
+    font-size: 16px;
+  }
+  .hero-one {
+    padding-top: 20px;
+    margin-left: 30px;
+ }
+ .hero-one h1{
+   font-size: 25px;
+ }
+ .hero-two h2{
+   font-size: 30px;
+ }
+ .hero-two-div{
+   border-right: none ;
+   border-bottom: 1px solid #ddd;
+   width: 90%;
+ }
+ .hero-two{
+  width: 90%;
+  margin: auto;
+ }
+
+.hero-two-div{
+  width: 90% !important;
+}
+ .hero-three{
+   flex-direction: column;
+   justify-content: center;
+   width: 100%;
+   margin: auto;
+   }
+   .hero-three button{
+     justify-content: center;
+     width: 60%;
+     margin: auto;
+   }
+   .hero-four{
+     flex-direction: column !important;
+     gap: 30px;
+     align-items: center;
+
+   }
+   .hero-four-div{
+     border-bottom: 1px solid #ddd;
+     padding: 10px;
+   }
+
+   .payment{
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+
+   .payment .a{
+    margin: auto;
+    width: 40%;
+   }
+   .steps-flex{
+    flex-direction: row ;
+    gap: 40px;
+   }
+   .step-item h2{
+    font-size: 15px;
+   }
+   .step-item h3{
+    font-size: 16px;
+   }
+   /* About page */
+
+   .Typewriter{
+    font-size: 24px;
+   }
+   .about-hero p {
+    font-size: 18px;
+   }
+   .about-counter{
+    flex-direction: column;
+    gap: 50px;
+   }
+   /* why-highness-page */
+   .why-highness-hero p{
+    width: 90%;  
+  }
+
+   /* careers-page */
+  
+   .careers-page-hero p{
+    width: 90%;  
+  }
+  .careers-job-title{
+    font-size: 20px;
+  }
+  /* vision page */
+  .vision-content{
+    flex-direction: column;
+   }
+   .vision-div{
+    width: 100%;
+   }
+      /* safety-page */
+      .saftey-page-hero p{
+        width: 85%;
+       }
+       .safety-title{
+        font-size: 20px;
+       }
+       .safety-last{
+        flex-direction: column;
+        gap: 40px;
+       }
+       .safety-div{
+         margin:0px auto;
+         width: 100%;
+       }
+
+       
+       /* cookies-policy-page */
+      .table-title{
+        display: block ;
+      }
+      .cookiesPolicy .table-div table .part-hidden{
+       display: none;
+      }
+
+     /* exhibitions-page */
+      .exhibitions-page-hero p {
+        width: 85%;
+      }
+  
+      /* support */
+    
+    .support form{
+      max-width: 100%;
+    } 
+
+        /* forex */
+    
+             .forex-content {
+               flex-direction: row;
+               flex-wrap: wrap;
+               justify-content: center;
+               gap: 30px;
+               align-items: center;
+             }
+         .forex-div{
+          width: 47%;
+
+           }
+                     /* standard */
+          
+                     .standard-flex {
+                       flex-direction: column;
+                       gap: 40px;
+                     }
+          
+                     .standard-div {
+                       width: 90%;
+                       margin: auto;
+                     }
+  
+
+}
+
+@media screen and (max-width : 576px){
+
+  .nav-logo{
+    width: 150px !important;
+  }
+  .lang-img{
+    display: none;
+  }
+  .menu-page{
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100% !important;
+
+  }
+  .nav-link{
+    font-size: 12px;
+  }
+    /* Discover */
+
+    .dicover{
+    flex-direction: column;
+    }
+    .dicover-div{
+      width: 90% !important;
+     } 
+     .pircing-div h3{
+      font-size: 13px !important;
+     }
+     .platform-content{
+      flex-direction: column !important;
+      flex-wrap: wrap !important;
+     }
+     .platform-div{
+      width: 95% !important;
+     }
+     .platforms h1{
+      font-size: 26px;
+     }
+     .platforms h1 span{
+      display: block;
+     }
+
+     .hero-four{
+      gap: 10px !important;
+     }
+     .hero-four-div{
+      width: max-content !important;
+     }
+
+     .payment{
+      flex-direction: column;
+      gap: 40px;
+      justify-content: center;
+     }
+ 
+     .payment .a{
+      margin: auto;
+     }
+     .main-chat-img{
+      width: 40px;
+   }
+   .professional-account{
+    font-size: 26px;
+   }
+   .hero-why{
+    margin-top: 80px;
+   }
+   .pircing h1{
+    font-size: 24px;
+   }
+   .step-title{
+    font-size: 24px;
+   }
+   .steps-flex{
+    flex-direction: column ;
+    gap: 40px;
+   }
+   .step-item h2{
+    font-size: 24px;
+   }
+   .step-item h3{
+    font-size: 18px;
+   }
+   .steps-content span{
+    font-size: 16px !important;
+    margin-top: 10px;
+   }
+   /* about-page */
+   .Typewriter{
+    font-size: 18px;
+   }
+   .about-hero p {
+    font-size: 18px;
+   }
+   .about-counter{
+    flex-direction: column;
+    gap: 50px;
+   }
+
+   /* why-highness-page */
+  
+  .why-highness-hero p{
+    width: 85%;  
+  }
+  .why-highness .container p {
+    width: 90%;
+  }
+  .why-highness .container span{
+    font-size: 12px;
+  }
+ 
+    /* careers-page */
+  
+    .careers-page-hero p{
+      width: 85%;  
+    }
+    .careers-title {
+      font-size: 22px;
+    }
+    .careers-content{
+      flex-direction: column;
+      gap: 20px !important;
+    }
+    .careers-job{
+      width: 100%;
+    }
+    .careers-three-title{
+      font-size: 24px;
+    }
+
+    /* vision-page */
+   .vision-page-hero p{
+    width: 85%;
+   }
+   .vision-one-title{
+    font-size: 20px;
+   }
+   .vision-content{
+    flex-direction: column;
+   }
+   .vision-div{
+    width: 100%;
+   }
+   .vision-last-main{
+    font-size: 20px;
+   }
+   .vision-last-p{
+    width: 100%;
+   }
+   .vision-last{
+  flex-direction: column;
+   }
+   .vision-last-div{
+    width: 100%;
+    text-align: center;
+   }
+
+    /* careers-page */
+    .mision-page-hero p{
+      width: 90%;  
+    }
+    /* legendForm Page */
+    
+   .legalForms-page-hero p {
+    width: 85%;
+   }
+  
+   .legendForm-div h2{
+    font-size: 18px;
+   }
+  
+  /* exhibitions-page */
+  .exhibitions-page-hero p {
+    width: 85%;
+  }
+  .exhibitions-content{
+    flex-direction: column;
+  }
+  .exhibitions-div{
+    width: 100%;
+  }
+
+/* forex */
+ 
+.forex-content{
+  flex-direction: column !important;
+  gap: 40px;
+}
+
+ .standard-ac{
+  flex-direction: column;
+  text-align: center;
+ }
+    .standard-ac h2:nth-child(2){
+      margin-left: 30px !important;
+      text-align: center;
+    }
+    .standard-div{
+    width: 90% !important;
+    }
+    .standard-div p{
+      width: 100% !important;
+    }
+ 
+} 
