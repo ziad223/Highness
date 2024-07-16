@@ -11,25 +11,20 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/standard-account/page": [
+    "/Affilate-Program/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/standard-account/page.js"
+      "static/chunks/app/Affilate-Program/page.js"
     ],
-    "/highness-account/page": [
+    "/meta-trader/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/highness-account/page.js"
+      "static/chunks/app/meta-trader/page.js"
     ],
-    "/support/page": [
+    "/highness-ios/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/support/page.js"
-    ],
-    "/professional-account/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/professional-account/page.js"
+      "static/chunks/app/highness-ios/page.js"
     ]
   }
 }

@@ -1,7 +1,5 @@
 {
   "/page": "app/page.js",
-  "/standard-account/page": "app/standard-account/page.js",
-  "/highness-account/page": "app/highness-account/page.js",
-  "/support/page": "app/support/page.js",
-  "/professional-account/page": "app/professional-account/page.js"
+  "/Affilate-Program/page": "app/Affilate-Program/page.js",
+  "/highness-ios/page": "app/highness-ios/page.js"
 }

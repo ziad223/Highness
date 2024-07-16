@@ -272,6 +272,18 @@ footer{
               background-size: cover;
               background-position: center;
            }
+           .meta-hero{
+              padding: 20px;
+              background-image: url(../assests/metaTrader_5.webp);
+              background-size: cover;
+              background-position: center;
+           }
+           .deposit-hero{
+              padding: 20px;
+              background-image: url(../assests/deposit_withdrawal_methods.webp);
+              background-size: cover;
+              background-position: center;
+           }
  
         /* standard  */
 
@@ -675,6 +687,35 @@ margin: 20px 0px;
             width: 48% !important;
             margin: auto;
           }
+          .meta-flex {
+            justify-content: center !important;
+            align-items: center;
+          }
+            
+          .meta-div {
+            width: 48%;
+          }
+        .deposit {
+          width: 100vw !important;
+          overflow-x: scroll !important;
+        }
+        .deposit-payment{
+          left : 0;
+          width: 90%;
+          max-width: 100%;
+          margin-left : 10px;
+        }
+                 /* affilate program */
+                 .aff-one {
+                   justify-content: center;
+                   flex-wrap: wrap;
+                 }
+        
+                 .aff-div {
+                   margin: auto;
+                   width: 31%;
+                 }
+        
 }
 @media screen and (max-width : 768px){
   .menu-page{
@@ -844,7 +885,29 @@ margin: 20px 0px;
                        width: 90%;
                        margin: auto;
                      }
-  
+                   .meta-table tr{
+                    display: flex;
+                    flex-direction: column !important;
+                   }
+                   .meta-flex{
+                    flex-direction: column;
+                    justify-content: center !important;
+                    align-items: center;
+                    gap: 40px;
+                   }
+                   .meta-div{
+                    width: 90%;
+                   }
+                /* affilate program */
+                .aff-one {
+                  justify-content: center;
+                  flex-wrap: wrap;
+                }
+                    
+                .aff-div {
+                  margin: auto;
+                  width: 45%;
+                }
 
 }
 
@@ -1053,4 +1116,26 @@ margin: 20px 0px;
       width: 100% !important;
     }
  
-} 
+    /* meta */
+    .meta-steps{
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    .meta-step{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      }
+      /* affilate program */
+      .aff-one{
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+      }
+      .aff-div{
+         margin: auto;
+         width: 90%;
+      }
+}

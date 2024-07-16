@@ -182,15 +182,15 @@ const Navbar = () => {
           <div>
             <h3 className='mb-3 text-[#398fdf]'>Trading Platforms</h3>
             <ul className='flex flex-col gap-2 '>
-              <li><a href="#" className='hover:bg-gray-300 transition duration-300 py-2 pr-1 rounded-sm nav-link' onClick={() =>setTradingToggle(false)}>MetaTrader 5</a></li>
-              <li><a href="#" className='hover:bg-gray-300 transition duration-300 py-2 pr-1 rounded-sm nav-link' onClick={() =>setTradingToggle(false)}>Highness iOS</a></li>
-              <li><a href="#" className='hover:bg-gray-300 transition duration-300 py-2 pr-1 rounded-sm nav-link' onClick={() =>setTradingToggle(false)}>Highness Android</a></li>
+              <li><Link href="/meta-trader" className='hover:bg-gray-300 transition duration-300 py-2 pr-1 rounded-sm nav-link' onClick={() =>setTradingToggle(false)}>MetaTrader 5</Link></li>
+              <li><Link href="/highness-ios" className='hover:bg-gray-300 transition duration-300 py-2 pr-1 rounded-sm nav-link' onClick={() =>setTradingToggle(false)}>Highness iOS</Link></li>
+              <li><Link href="/highness-android" className='hover:bg-gray-300 transition duration-300 py-2 pr-1 rounded-sm nav-link' onClick={() =>setTradingToggle(false)}>Highness Android</Link></li>
             </ul>
           </div>
           <div>
             <h3 className='mb-3 text-[#398fdf]'>Deposit And Withdrawal</h3>
             <ul className='flex flex-col gap-2 '>
-              <li><a href="#" className='hover:bg-gray-300 transition duration-300 py-2 pr-1 rounded-sm nav-link' onClick={() =>setTradingToggle(false)}>Deposit & Withdrawal Methods</a></li>
+              <li><Link href="/deposit-withdrawal-methods" className='hover:bg-gray-300 transition duration-300 py-2 pr-1 rounded-sm nav-link' onClick={() =>setTradingToggle(false)}>Deposit & Withdrawal Methods</Link></li>
             </ul>
           </div>
           </div>
@@ -202,9 +202,9 @@ const Navbar = () => {
           {partnerToggle && 
           <div className="menu-page bg-gray-100 text-gray-700 p-5 rounded-lg flex gap-8 absolute top-8 left-0 w-max">
           <ul  className='flex flex-col gap-1 '>
-            <li><a href="#" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={() =>setPartnerToggle(false)}>Affiliate Program</a></li>
-            <li><a href="#" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={() =>setPartnerToggle(false)}>IB Commission</a></li>
-            <li><a href="#" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={() =>setPartnerToggle(false)}>White Label</a></li>
+            <li><Link href="/Affilate-Program" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={() =>setPartnerToggle(false)}>Affiliate Program</Link></li>
+            <li><Link href="#" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={() =>setPartnerToggle(false)}>IB Commission</Link></li>
+            <li><Link href="#" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={() =>setPartnerToggle(false)}>White Label</Link></li>
           </ul>
          </div>
           }
@@ -335,15 +335,15 @@ const Navbar = () => {
           <div>
             <h3 className='mb-3 text-[#398fdf]'>Trading Platforms</h3>
             <ul className='flex flex-col gap-2 '>
-              <li><a href="#" className='hover:bg-gray-300 transition duration-300 py-2 pr-1 rounded-sm nav-link' onClick={tradingLinks}>MetaTrader 5</a></li>
-              <li><a href="#" className='hover:bg-gray-300 transition duration-300 py-2 pr-1 rounded-sm nav-link' onClick={tradingLinks}>Highness iOS</a></li>
-              <li><a href="#" className='hover:bg-gray-300 transition duration-300 py-2 pr-1 rounded-sm nav-link' onClick={tradingLinks}>Highness Android</a></li>
+              <li><Link href="/meta-trader" className='hover:bg-gray-300 transition duration-300 py-2 pr-1 rounded-sm nav-link' onClick={tradingLinks}>MetaTrader 5</Link></li>
+              <li><Link href="/highness-ios" className='hover:bg-gray-300 transition duration-300 py-2 pr-1 rounded-sm nav-link' onClick={tradingLinks}>Highness iOS</Link></li>
+              <li><Link href="/highness-android" className='hover:bg-gray-300 transition duration-300 py-2 pr-1 rounded-sm nav-link' onClick={tradingLinks}>Highness Android</Link></li>
             </ul>
           </div>
           <div>
             <h3 className='mb-3 text-[#398fdf]'>Deposit And Withdrawal</h3>
             <ul className='flex flex-col gap-2 '>
-              <li><a href="#" className='hover:bg-gray-300 transition duration-300 py-2 pr-1 rounded-sm nav-link' onClick={tradingLinks}>Deposit & Withdrawal Methods</a></li>
+              <li><Link href="/deposit-withdrawal-methods" className='hover:bg-gray-300 transition duration-300 py-2 pr-1 rounded-sm nav-link' onClick={tradingLinks}>Deposit & Withdrawal Methods</Link></li>
             </ul>
           </div>
           </div>
@@ -355,9 +355,9 @@ const Navbar = () => {
           {partnerToggle && 
           <div className="menu-page bg-gray-100 text-gray-700 p-5 rounded-lg flex gap-8 absolute top-8 left-0 w-max">
           <ul  className='flex flex-col gap-1 '>
-            <li><a href="#" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={partnerShipLinks}>Affiliate Program</a></li>
-            <li><a href="#" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={partnerShipLinks}>IB Commission</a></li>
-            <li><a href="#" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={partnerShipLinks}>White Label</a></li>
+            <li><Link href="/Affilate-Program" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={partnerShipLinks}>Affiliate Program</Link></li>
+            <li><Link href="#" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={partnerShipLinks}>IB Commission</Link></li>
+            <li><Link href="#" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={partnerShipLinks}>White Label</Link></li>
           </ul>
          </div>
           }
