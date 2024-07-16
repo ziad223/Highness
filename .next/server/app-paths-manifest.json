@@ -1,5 +1,6 @@
 {
   "/page": "app/page.js",
-  "/Affilate-Program/page": "app/Affilate-Program/page.js",
-  "/highness-ios/page": "app/highness-ios/page.js"
+  "/ib-commetion/page": "app/ib-commetion/page.js",
+  "/support/page": "app/support/page.js",
+  "/white-label/page": "app/white-label/page.js"
 }

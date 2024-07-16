@@ -203,8 +203,8 @@ const Navbar = () => {
           <div className="menu-page bg-gray-100 text-gray-700 p-5 rounded-lg flex gap-8 absolute top-8 left-0 w-max">
           <ul  className='flex flex-col gap-1 '>
             <li><Link href="/Affilate-Program" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={() =>setPartnerToggle(false)}>Affiliate Program</Link></li>
-            <li><Link href="#" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={() =>setPartnerToggle(false)}>IB Commission</Link></li>
-            <li><Link href="#" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={() =>setPartnerToggle(false)}>White Label</Link></li>
+            <li><Link href="/ib-commetion" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={() =>setPartnerToggle(false)}>IB Commission</Link></li>
+            <li><Link href="/white-label" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={() =>setPartnerToggle(false)}>White Label</Link></li>
           </ul>
          </div>
           }
@@ -356,8 +356,8 @@ const Navbar = () => {
           <div className="menu-page bg-gray-100 text-gray-700 p-5 rounded-lg flex gap-8 absolute top-8 left-0 w-max">
           <ul  className='flex flex-col gap-1 '>
             <li><Link href="/Affilate-Program" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={partnerShipLinks}>Affiliate Program</Link></li>
-            <li><Link href="#" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={partnerShipLinks}>IB Commission</Link></li>
-            <li><Link href="#" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={partnerShipLinks}>White Label</Link></li>
+            <li><Link href="/ib-commetion" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={partnerShipLinks}>IB Commission</Link></li>
+            <li><Link href="/white-label" className='hover:bg-gray-300 transition duration-300 p-2 rounded-[5px] block  nav-link' onClick={partnerShipLinks}>White Label</Link></li>
           </ul>
          </div>
           }

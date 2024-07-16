@@ -26,7 +26,7 @@ body{
   display: none;
 }
 .main-links{
- font-size: 16px !important;
+ font-size: 20px !important;
 }
 .hero{
   background-image: url('../assests/hero.jpg');
@@ -284,6 +284,18 @@ footer{
               background-size: cover;
               background-position: center;
            }
+          .ib-hero {
+           padding: 20px;
+           background-image: url(../assests/ib-commetion.webp);
+           background-size: cover;
+           background-position: center;
+         }
+         .white-page-hero{
+          padding: 20px;
+            background-image: url(../assests/white_label.webp);
+            background-size: cover;
+            background-position: center;
+         }
  
         /* standard  */
 
@@ -302,6 +314,8 @@ footer{
         .standard-table{
           max-width: 90%;
         }
+
+        /* ib commetion */
 
 
 @media screen and (min-width : 1300px) and (max-width : 1800px) {
@@ -908,6 +922,33 @@ margin: 20px 0px;
                   margin: auto;
                   width: 45%;
                 }
+
+                /* ib-one */
+
+                .ib-one{
+                  flex-direction: column;
+                  gap: 20px;
+                  text-align: center;
+                }
+                .ib-two {
+                 flex-direction: column;
+                  gap: 40px;
+                  text-align: center;
+                }
+                .ib-three{
+                    flex-direction: column;
+                    gap: 20px;
+                    text-align: center;
+                }
+                .overall{
+                  font-size: 24px;
+                }
+                .ib-four{
+                    flex-direction: column;
+                      gap: 40px;
+                      text-align: center;
+                }
+                
 
 }
 

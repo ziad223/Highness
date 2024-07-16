@@ -11,20 +11,20 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/Affilate-Program/page": [
+    "/ib-commetion/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/Affilate-Program/page.js"
+      "static/chunks/app/ib-commetion/page.js"
     ],
-    "/meta-trader/page": [
+    "/support/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/meta-trader/page.js"
+      "static/chunks/app/support/page.js"
     ],
-    "/highness-ios/page": [
+    "/white-label/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/highness-ios/page.js"
+      "static/chunks/app/white-label/page.js"
     ]
   }
 }
