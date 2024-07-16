@@ -1,4 +1,4 @@
-{
+  {
   "pages": {
     "/page": [
       "static/chunks/webpack.js",
