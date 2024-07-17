@@ -948,7 +948,9 @@ margin: 20px 0px;
                       gap: 40px;
                       text-align: center;
                 }
-                
+                .ib-title{
+                  font-size: 22px;
+                }
 
 }
 
@@ -1178,5 +1180,8 @@ margin: 20px 0px;
       .aff-div{
          margin: auto;
          width: 90%;
+      }
+      .white-btn{
+        width: 100% !important;
       }
 }

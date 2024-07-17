@@ -24,7 +24,7 @@ const Vision = () => {
             <input type="text" placeholder='Phone*' className='block w-full mb-5 p-3 rounded-md outline-0' />
             <input type="text" placeholder='Email*' className='block w-full mb-5 p-3 rounded-md outline-0' />
             <textarea placeholder='message*' className='block w-full mb-5 p-3 rounded-md outline-0 h-[200px]'></textarea>
-            <button className="bg-blue-500 w-[30%] text-xl mt-5 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            <button className="white-btn bg-blue-500 w-[30%] text-xl mt-5 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
               Submit
             </button>
         </form>

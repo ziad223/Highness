@@ -15,7 +15,7 @@ const page = () => {
         <IbWriter/>
        </div>
         <div className='py-10'>
-         <h2 className='text-gray-100 text-3xl text-center font-bold'>How much you can earn</h2>
+         <h2 className='ib-title text-gray-100 text-3xl text-center font-bold'>How much you can earn</h2>
          <div className="bg-[#111] mt-10 lg:w-[50%] w-[90%] mx-auto p-5 rounded-md text-gray-100">
           <div className='ib-one flex justify-around text-2xl mt-5 '>
             <h2 className='ib-one-div bg-[#222] p-3 rounded-md'>EURUSD</h2>
