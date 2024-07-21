@@ -210,7 +210,7 @@ const Navbar = () => {
           }
           
           </li>
-        <li onClick={knowledgePageToggle}><a href="#"  className='flex gap-2 items-center text-[20px]  main-links'>
+        {/* <li onClick={knowledgePageToggle}><a href="#"  className='flex gap-2 items-center text-[20px]  main-links'>
           Knowledge Types <FaCaretDown className='text-[16px]'/></a>
           {knowledgeToggle &&
              <div className="menu-page bg-gray-100 text-gray-700 p-5 rounded-lg flex gap-8 absolute top-8 left-0 w-max">
@@ -259,7 +259,7 @@ const Navbar = () => {
              </div>
         }
        
-          </li>
+          </li> */}
         <li><Link href="/support"  className='flex gap-2 items-center text-[20px] main-links'>Support</Link></li>
       </ul> 
 
