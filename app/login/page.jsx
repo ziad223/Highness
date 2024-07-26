@@ -40,7 +40,7 @@ const page = () => {
           </a>
 
           <h1 className="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
-            Welcome to Squid 🦑
+            Welcome to Ziad Highness 🦑
           </h1>
 
           <p className="mt-4 leading-relaxed text-gray-500">
@@ -78,7 +78,7 @@ const page = () => {
 
         
 
-          <div className="col-span-1 sm:col-span-3">
+          <div className="col-span-6 sm:col-span-3">
             <label htmlFor="Password" className="block text-sm font-medium text-gray-700"> Password </label>
 
             <input
