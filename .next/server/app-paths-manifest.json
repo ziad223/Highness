@@ -1,5 +1,6 @@
 {
   "/page": "app/page.js",
-  "/white-label/page": "app/white-label/page.js",
-  "/ib-commetion/page": "app/ib-commetion/page.js"
+  "/why-highness/page": "app/why-highness/page.js",
+  "/login/page": "app/login/page.js",
+  "/register/page": "app/register/page.js"
 }

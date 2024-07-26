@@ -363,7 +363,7 @@ const Navbar = () => {
           }
           
           </li>
-        <li onClick={knowledgePageToggle}><a href="#"  className='flex gap-2 items-center text-[20px]  main-links'>
+        {/* <li onClick={knowledgePageToggle}><a href="#"  className='flex gap-2 items-center text-[20px]  main-links'>
           Knowledge Types <FaCaretDown className='text-[16px]'/></a>
           {knowledgeToggle &&
              <div className="menu-page bg-gray-100 text-gray-700 p-5 rounded-lg flex gap-8 absolute top-8 left-0 w-max">
@@ -412,7 +412,7 @@ const Navbar = () => {
              </div>
         }
        
-          </li>
+          </li> */}
         <li><Link href="/support"  className='flex gap-2 items-center text-[20px] main-links'>Support</Link></li>
       </ul> : null 
     }
@@ -424,7 +424,7 @@ const Navbar = () => {
       
     
  <div className="relative inline-block text-slate-900">
-      <button
+      {/* <button
         className="bg-gray-100 hover:bg-gray-300 text-slate-950 font-bold  py-2 px-4 rounded-md flex items-center gap-2 " 
         onClick={toggleDropdown}
       >
@@ -447,12 +447,12 @@ const Navbar = () => {
             clipRule="evenodd"
           />
         </svg>
-      </button>
+      </button> */}
      <div>
      {isOpen && (
         
             <div className="lang-menu absolute right-[5px] z-10 mt-2 w-44 bg-white rounded-md shadow-lg">
-          <ul className="py-1 flex flex-col gap-2">
+          {/* <ul className="py-1 flex flex-col gap-2">
             {languages.map((language) => (
               
               <li
@@ -467,13 +467,22 @@ const Navbar = () => {
                 {language}
               </li>
             ))}
-          </ul>
+          </ul> */}
         </div>
     
       )}
      </div>
     </div>
-
+    <Link href='/login'>
+     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+      Login
+      </button>
+    </Link>
+      <Link href='/register'>
+      <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+      Register
+     </button>
+      </Link>
         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-4 rounded p-10 menu-btn" onClick={() =>setOpenMenu(!openMenu)}><FiMenu/></button>
 
          
