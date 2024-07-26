@@ -418,7 +418,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/react-icons"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fregister%2Fpage&page=%2Fregister%2Fpage&appPaths=%2Fregister%2Fpage&pagePath=private-next-app-dir%2Fregister%2Fpage.jsx&appDir=D%3A%5C%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9%D9%8A%5CNext%20Projects%5CHigness%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=D%3A%5C%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9%D9%8A%5CNext%20Projects%5CHigness&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/react-icons","vendor-chunks/next","vendor-chunks/@swc"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fregister%2Fpage&page=%2Fregister%2Fpage&appPaths=%2Fregister%2Fpage&pagePath=private-next-app-dir%2Fregister%2Fpage.jsx&appDir=D%3A%5C%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9%D9%8A%5CNext%20Projects%5CHigness%5Capp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=D%3A%5C%D9%85%D8%B4%D8%A7%D8%B1%D9%8A%D8%B9%D9%8A%5CNext%20Projects%5CHigness&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();

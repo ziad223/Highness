@@ -123,7 +123,7 @@ const page = () => {
             </button>
 
             <p className="mt-4  text-gray-500 sm:mt-0 text-md">
-              Not have an account?
+              Not have an account ?
               <Link href="/register" className="text-gray-700 underline ml-5 text-lg">Register</Link>.
             </p>
           </div>
